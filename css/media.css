@@ -1,0 +1,139 @@
+@media (max-width: 568px) {
+  .nav-bar,
+  .btn-bar {
+    display: none;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  /* main */
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-content {
+    padding: 0px;
+    text-align: center;
+    width: fit-content;
+  }
+  .main-content > h1 {
+    font-size: 20px;
+  }
+  .main-content > p {
+    line-height: 1rem;
+    font-size: 15px;
+  }
+  .main-btn {
+    font-size: 10px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 50px;
+  }
+
+  .main-img > img {
+    height: 250px;
+    width: 200px;
+  }
+
+  /* section 3 */
+
+  .section3part {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+    flex-direction: column-reverse;
+  }
+  .section3part > .section3-img {
+    padding: 30px 10px 30px 80px;
+
+    width: min-content;
+    justify-items: center;
+  }
+  .descri3 {
+    margin: 0px;
+    padding: 30px 0px;
+    font-size: 15px;
+  }
+
+  /* section 4 */
+  .section4part {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .descri4 {
+    padding: 30px 10px;
+    margin: 0px;
+  }
+  .section4-img {
+    padding: 80px 30px 10px;
+    width: fit-content;
+    padding-left: 80px;
+    margin-bottom: 30px;
+  }
+
+  /* founders */
+  .founder {
+    padding: 0px;
+    margin: 0px;
+  }
+  .card-content {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    padding: 20px;
+    margin: 0px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 150px;
+  }
+
+  /* achievement */
+  .achievement {
+    display: none;
+  }
+
+  /* footer */
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    margin: 0px;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+  }
+  .left1 {
+    margin-bottom: 30px;
+  }
+  /* paycards */
+  .footer-note {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    margin: 30px;
+  }
+  .footer-note > .copy-right {
+    margin-right: 30px;
+  }
+
+  .pay-cards {
+    margin-top: 50px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
